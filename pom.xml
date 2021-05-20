@@ -18,6 +18,7 @@
 		<java.version>11</java.version>
 		<org.projectlombok.version>1.18.20</org.projectlombok.version>
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+	    <org.apache.commons.collections4>4.4</org.apache.commons.collections4>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -53,6 +54,15 @@
 			<artifactId>mapstruct</artifactId>
 			<version>${org.mapstruct.version}</version>
 		</dependency>
+		<dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>${org.apache.commons.collections4}</version>
+        </dependency>
 	</dependencies>
 
 	<build>
